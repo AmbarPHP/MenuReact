@@ -47,17 +47,20 @@ const Navbar = ({ setAll, setBreakfast, setLunch, setShakes }) => {
             font-size: 1.3rem;
           }
         }
+
+       
+        }
       `}
     >
-      <h3 className="logo">Exper.</h3>
+      <h3 className="logo">Guarderia Ruyard Kiplin</h3>
       <Buttons
         className="Buttons"
-        setAll={setAll}
+        setAll={setAll} 
         setBreakfast={setBreakfast}
         setLunch={setLunch}
         setShakes={setShakes}
       />
-      <h3 className="dwu">dine with us.</h3>
+      <h3 className="dwu">Buenos dias</h3>
     </div>
   );
 };
